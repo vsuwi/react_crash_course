@@ -56,3 +56,5 @@ useState lets you set a default variable
 name of state
 name of function called to change that state
 const [showFullDescription, setShowFullDescription] = useState(false);
+
+better to use Link than a tags
