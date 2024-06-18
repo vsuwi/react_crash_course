@@ -34,3 +34,12 @@ has div with id of root in index.html, that holds all the code from react
 ++++++++++++ CODE +++++++++++++++
 
 when making a list, each item must have a key prop or id
+
+when importing components to app, they can be named anything you want
+
+rafce for boiler plate set up
+
+if importing from one component to the next,
+'./components/Card' gives an error
+instead => do this
+'./Card'
