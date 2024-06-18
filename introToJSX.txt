@@ -1,0 +1,30 @@
+import React from 'react'
+//fragment = empty html tag
+function App() {
+
+  const name = 'Victor';
+  const x = 10;
+  const y = 20;
+
+  const names = ['brad', 'mary', 'joe'];
+
+  const loggedIn = true;
+
+  return (
+    <> 
+      <div className='text-5xl'>App</div>
+      <p>hello {name}</p>
+      <p>the sum of {x} and {y} is {x + y}</p>
+
+      <ul>
+        {names.map((name, index) => (
+          <li key = {index}>{name}</li>
+        )) }
+      </ul>
+
+      {loggedIn && <h1>hello member</h1>}
+    </>
+  )
+}
+
+export default App

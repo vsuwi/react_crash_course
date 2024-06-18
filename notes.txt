@@ -27,3 +27,10 @@ vite - fast front-end tool kit
 
 
 has div with id of root in index.html, that holds all the code from react
+
+
+
+
+++++++++++++ CODE +++++++++++++++
+
+when making a list, each item must have a key prop or id
