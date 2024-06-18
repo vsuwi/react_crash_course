@@ -43,3 +43,16 @@ if importing from one component to the next,
 './components/Card' gives an error
 instead => do this
 './Card'
+
+State
+
+component state - <HomeCard/>
+
+app lvl or global state - relates to entire App, pass down to components
+
+
+useState lets you set a default variable
+
+name of state
+name of function called to change that state
+const [showFullDescription, setShowFullDescription] = useState(false);
