@@ -1,0 +1,29 @@
+react is a JS framework
+
+allows to build very dynamic and interactive websites and UI
+
+uses the virtual DOM (lightweight copy of the actual DOM)
+
+when state of a component changes => virtual DOM changes first => react would compare virtual and actual DOM => update parts that need to be updated.
+
+Components - 
+- reusable piece of code that can be used to build elements on the page.
+- allows us to break down complex UIs, makes easier to maintain and scale
+- components can get props passed in and can hoold their own state
+
+State
+- represents the data a component manages internally
+- ex: form input data, fetched data, UI-related data (useState())
+
+Hooks
+- useState <= most used
+- useEffect <= most used
+- useRef
+- useReducer
+
+React uses JSX within its components
+
+vite - fast front-end tool kit
+
+
+has div with id of root in index.html, that holds all the code from react
